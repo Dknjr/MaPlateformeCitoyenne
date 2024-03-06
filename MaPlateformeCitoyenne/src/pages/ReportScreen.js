@@ -68,7 +68,7 @@ function ReportScreen() {
         <Picker.Item label="Panne d'éclairage public" value="panne_eclairage" />
         <Picker.Item label="Nid-de-poule" value="nid_poule" />
         <Picker.Item label="Déchets abandonnés" value="dechets_abandonnes" />
-        {/* Ajoutez d'autres types de signalement au besoin */}
+        {/* Ajouter d'autres types de signalement au besoin */}
       </Picker>
       <Text style={styles.label}>Niveau d'urgence</Text>
       <Picker

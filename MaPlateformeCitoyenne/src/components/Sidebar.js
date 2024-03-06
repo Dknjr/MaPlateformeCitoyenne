@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaHome, FaEnvelope, FaCog } from 'react-icons/fa';
 import { MdDashboard } from "react-icons/md";
-import './Sidebar.css'; // Assurez-vous d'avoir un fichier CSS pour les styles
+import './Sidebar.css';
 
 const Sidebar = () => {
   return (

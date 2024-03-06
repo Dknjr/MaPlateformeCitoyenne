@@ -18,7 +18,7 @@ const Messages = () => {
   const [messages, setMessages] = useState([
     { id: 1, text: "J'aimerais savoir l'état d'avancement par rapport à ma demande d'hier", avatar: 'path/to/avatar1.png', isUser: true },
     { id: 2, text: "Votre demande est toujours en cours de traitement on vous informera par rapport à son évolution", avatar: 'path/to/avatar2.png', isUser: false },
-    // Add more messages here
+ 
   ]);
   const [newMessage, setNewMessage] = useState('');
 

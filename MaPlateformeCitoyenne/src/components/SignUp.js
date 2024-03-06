@@ -18,9 +18,8 @@ const SignUp = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Ici, vous ajouterez la logique pour enregistrer l'utilisateur dans votre système
     console.log(user);
-    // Après l'enregistrement, vous pouvez rediriger l'utilisateur où vous le souhaitez, par exemple vers la page de connexion
+    // Après l'enregistrement, rediriger l'utilisateur
     navigate('/');
   };
 
