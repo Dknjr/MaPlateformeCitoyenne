@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+}
+
+.page-content {
+  flex-grow: 1; /* Assure que le contenu de la page utilise l'espace restant */
+  padding-left: 200px; /* Un peu d'espace autour du contenu de la page */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ajoutez d'autres styles globaux ici */
