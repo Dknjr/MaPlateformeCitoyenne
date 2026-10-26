@@ -50,7 +50,10 @@ Chaque ressource expose un CRUD complet (`POST`, `GET`, `GET /{id}`, `PUT /{id}`
 
 ```bash
 cd MaPlateformeCitoyenne_Backend
-# renseigner l'URL, l'utilisateur et le mot de passe MySQL dans src/main/resources/application.properties
+export DB_USERNAME=votre_utilisateur
+export DB_PASSWORD=votre_mot_de_passe
+# optionnel, par défaut jdbc:mysql://localhost:3306/alertcom
+# export DB_URL=jdbc:mysql://localhost:3306/alertcom
 ./mvnw spring-boot:run        # API sur http://localhost:8086
 ```
 
